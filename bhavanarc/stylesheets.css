@@ -1,0 +1,129 @@
+h1{
+  font-family: 'Courier Prime', monospace;
+}
+
+h2 {
+  font-family: 'Solway', serif;
+  font-size: 18px;
+  margin-left: 675px;
+}
+
+h3{
+    font-family: 'Solway', serif;
+  font-size: 100px;;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+p{
+  font-family: 'Courier Prime', monospace;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.text-with-animation {
+  font-size: 10vw;
+  font-family: 'Caveat', cursive;
+  text-transform: lowercase;
+  text-align: center;
+  line-height: 80vh;
+  vertical-align: middle;
+  animation: main-text-animation 1.7s ease-in-out forwards;
+  font-weight: 700;
+  color: #FFFBFB;
+  overflow: hidden;
+  display: block;
+  width: 500vw;
+  margin-left: -200vw;
+}
+
+.container {
+  height: 95vh;
+  line-height: 100vh;
+  vertical-align: middle;
+}
+
+.container2 {
+  height: 95vh;
+  line-height: 100vh;
+  vertical-align: middle;
+}
+
+
+.body2 {
+background: linear-gradient(to bottom right, #79D2FF 20%, #EA1FED);
+animation: color-me-in 5s;
+}
+
+@keyframes color-me-in {
+  0% {
+  background: linear-gradient(to bottom right, #79D2FF 20%, #EA1FED);
+  }
+  100% {
+    background: white;
+  }
+}
+
+
+
+.subtext-with-animation {
+  position: absolute;
+  font-size: 3vw;
+  text-align: center;
+  line-height: 85vh;
+  vertical-align: middle;
+  top: 0;
+  width: 100%;
+  font-family: 'Solway', serif;
+  color: #fff;
+  letter-spacing: 4px;
+  user-select: none;
+  overflow: hidden;
+  display: block;
+}
+
+.subtext-with-animation span:first-of-type {
+  position: relative;
+  opacity: 0;
+  animation: word-animation 0.5s ease-out 1.5s forwards;
+}
+
+.subtext-with-animation span:nth-of-type(2) {
+  position: relative;
+  opacity: 0;
+  animation: word-animation 0.3s ease-out 0.4s forwards;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+  background: linear-gradient(to bottom right, #79D2FF 20%, #EA1FED);
+}
+
+body, html {
+  width: 100vw;
+  max-width: 100vw;
+}
+
+@keyframes main-text-animation {
+  0% {
+    letter-spacing: 25vw;
+    word-spacing: 100vw;
+    opacity: 0;
+  }
+  100% {
+    letter-spacing: 4px;
+    word-spacing: 1vw;
+    opacity: 1;
+  }
+}
+
+@keyframes word-animation {
+  0% {
+    top: 10vw;
+    opacity: 0;
+  }
+  100% {
+    top: 3.5vw;
+    opacity: 1;
+  }
+}
